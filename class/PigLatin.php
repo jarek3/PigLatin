@@ -19,7 +19,7 @@ class PigLatin
                $punctuation = substr($word,$wordLength - 1,$wordLength); //uložení posledního znaku v řetězci, je potřeba v případě, že tam je interpunkční znaménko
                 if($wordLength > 2) //kontrola zda má slovo aspoň 3 písmena, jinak výpis originálního slova
                     {	          
-                      if(preg_match("/(\?|\.|\!)$/", $word)) //kontrola, zda má je sv řetězci interpunkční znaménko
+                      if(preg_match("/(\?|\.|\!)$/", $word)) //kontrola, zda je v řetězci interpunkční znaménko
                         {  
                            $word = substr($word,0,$wordLength-1);//pokud existuje interpunkční znaménko, je odtrženo od řetězce
                             if($pos > 0) //pokud první písmeno není samohláska
