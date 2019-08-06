@@ -7,6 +7,12 @@ h1
     {
     text-align: center;
     text-shadow: 3px 3px 7px #666666;
+    }
+
+label
+    {
+    background: #DBE8F8;
+    border-radius: 1px;    
     }    
 
 form 
@@ -27,7 +33,7 @@ textarea
 input[type="submit"] 
     {
     background: #6FA4F8;
-    font-size: 14px;
+    font-size: 16px;
     color: white;    
     border-radius: 10px;
     box-shadow:  3px 3px 3px #aaaaaa;
@@ -48,5 +54,7 @@ input[type="submit"]:hover
 
 p
     {
-    background: #DBE8F8;    
+    margin: 20px;    
+    background: #DBE8F8;
+    border-radius: 1px;
     } 
